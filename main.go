@@ -33,7 +33,7 @@ func main() {
 			os.Args[0],
 		)
 		fmt.Fprintf(flag.CommandLine.Output(),
-			"\t%s -perm 100000 -mul 5 '4a4b4c4d' '(a & b & (c ^ d) | ((a ^ b) & c & d)'\n",
+			"\t%s -perm 100000 -mul 5 '4a4b4c4d' '(a & b & (c ^ d)) | ((a ^ b) & c & d)'\n",
 			os.Args[0],
 		)
 	}

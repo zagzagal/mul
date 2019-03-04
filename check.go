@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"mul/evalbool"
+	"github.com/zagzagal/mul/evalbool"
 )
 
 var checkRegexp = regexp.MustCompile(`(\d*)(\w|\&|\||\(|\)|\^|!)`)

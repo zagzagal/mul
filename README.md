@@ -1,6 +1,11 @@
 # mul
 A cli London Mulligan simulator
 
+Installation
+```
+go get -u github.com/zagzagal/mul
+```
+
 ```
 Usage of ./mul:
 Usage: ./mul <deckstring> <logic>

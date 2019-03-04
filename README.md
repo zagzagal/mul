@@ -1,6 +1,7 @@
 # mul
 A cli London Mulligan simulator
 
+```
 Usage of ./mul:
 Usage: ./mul <deckstring> <logic>
 
@@ -19,3 +20,4 @@ Usage: ./mul <deckstring> <logic>
 
 Example: ./mul '4a4b' 'a&b'
         ./mul -perm 100000 -mul 5 '4a4b4c4d' '(a & b & (c ^ d) | ((a ^ b) & c & d)'
+```
